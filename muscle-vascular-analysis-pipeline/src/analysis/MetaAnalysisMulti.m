@@ -1,16 +1,23 @@
-% metaAnalysisTest.m
-% Origin: "JIDTmeta_analysis_test.m"
-% Category: Analytical routines (Transfer Entropy, meta-analysis)
-% Author: Ashvin Handoo
-% Last Updated: 2025-10-26
+% MetaAnalysisMulti.m
+% -------------------------------------------------------------------------
+% Purpose:
+%   Aggregates and visualizes transfer entropy (TE) results across multiple
+%   animals or vessels. Produces averaged TE plots to show group-level
+%   patterns and coupling consistency.
 %
-% Summary:
-%   Part of the astrocyte-vascular-analysis-pipeline. Renamed and documented
-%   for clarity and recruiter readability. Original logic preserved.
+% Inputs:
+%   - CSV files from multiple animals or vessels (TE outputs)
 %
-% Notes:
-%   - See README for a synthetic demo you can run without lab data.
-%   - This file may expect specific data structures if used with raw datasets.
+% Outputs:
+%   - Averaged plots and summary figures across datasets
+%
+% File Relationships:
+%   - Builds on outputs from TransferEntropyKraskov and TransferEntropyKernel
+%   - Provides intermediate visualizations used before
+%     PlotVascularCorrelation
+%
+% Dependencies:
+%   - MATLAB plotting functions
 %
 % ---- Original script content below ----
 
