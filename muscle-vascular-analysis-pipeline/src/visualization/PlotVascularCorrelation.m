@@ -3,7 +3,7 @@
 % Purpose:
 %   Generates comprehensive visualizations combining all animals, vessels,
 %   and days. Displays directional coupling (calcium → diameter and
-%   diameter → calcium) along with null distributions and averaged results.
+%   diameter → calcium) along with null and averaged results.
 %
 % Inputs:
 %   - CSV outputs from TransferEntropyKraskov or TransferEntropyKernel
