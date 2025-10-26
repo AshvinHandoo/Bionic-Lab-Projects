@@ -1,16 +1,24 @@
-% transferEntropyKraskov.m
-% Origin: "JIDTkrashkov.m"
-% Category: Analytical routines (Transfer Entropy, meta-analysis)
-% Author: Ashvin Handoo
-% Last Updated: 2025-10-26
+% TransferEntropyKraskov.m
+% -------------------------------------------------------------------------
+% Purpose:
+%   Computes transfer entropy (TE) between calcium and vasomotion signals
+%   using the Kraskov estimator. Performs parameter sweeps and lag analysis
+%   to identify directional coupling between signals.
 %
-% Summary:
-%   Part of the astrocyte-vascular-analysis-pipeline. Renamed and documented
-%   for clarity and recruiter readability. Original logic preserved.
+% Inputs:
+%   - Preprocessed calcium and diameter time-series data
+%   - User-defined parameters for lag, embedding, and nearest neighbors
 %
-% Notes:
-%   - See README for a synthetic demo you can run without lab data.
-%   - This file may expect specific data structures if used with raw datasets.
+% Outputs:
+%   - CSV file containing TE values, lags, and directional statistics
+%
+% File Relationships:
+%   - Outputs are used by MetaAnalysisSingle, MetaAnalysisMulti, and
+%     PlotVascularCorrelation for visualization and summary analyses.
+%
+% Dependencies:
+%   - Requires JIDT (Java Information Dynamics Toolkit)
+%   - See REQUIREMENTS.md for setup instructions
 %
 % ---- Original script content below ----
 
