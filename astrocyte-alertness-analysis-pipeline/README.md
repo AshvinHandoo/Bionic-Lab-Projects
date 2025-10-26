@@ -4,10 +4,10 @@
 > **Author:** Ashvin Handoo  
 > **Last Updated:** 2025-10-26
 
-A Python-based analysis pipeline demonstrating a **bioinformatics / computational neuroscience** workflow:
+A Python-based analysis pipeline demonstrating a **computational neuroscience** workflow:
 - Signal processing for time-series data (pupil diameter ratio, calcium traces)
 - Correlation analysis and event-detection patterns
-- Modular, well-documented code suited for **R&D data science** roles
+- Modular, well-documented code meant for **data science** roles
 
 This repository uses a small **synthetic dataset** (generated on-the-fly) so reviewers can run the code without access to the original lab data.
 
@@ -55,7 +55,7 @@ python -m src.run_demo_pipeline
 ```
 The demo computes a **rolling correlation** between synthetic pupil and calcium signals to illustrate an **alertness proxy**.
 
-> Note: Original experimental data are unavailable; this repo is intentionally **portfolio-focused** for computational/bioinformatics roles.
+> Note: Original experimental data are unavailable; this repo is intentionally **portfolio-focused** for computational roles.
 
 ---
 
