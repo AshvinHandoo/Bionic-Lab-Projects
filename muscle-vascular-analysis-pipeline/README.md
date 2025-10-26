@@ -1,6 +1,6 @@
-# Astrocyte–Vascular Analysis Pipeline (MATLAB)
+# Muscle–Vascular Analysis Pipeline (MATLAB)
 
-> **Repo:** `BIONIC-Lab/astrocyte-vascular-analysis-pipeline`  
+> **Repo:** `BIONIC-Lab/muscle-vascular-analysis-pipeline`  
 > **Author:** Ashvin Handoo  
 > **Last Updated:** 2025-10-26
 
@@ -13,7 +13,7 @@ This repository includes a **synthetic dataset generator** so reviewers can run 
 ## 🧩 Project Structure
 
 ```
-astrocyte-vascular-analysis-pipeline/
+muscle-vascular-analysis-pipeline/
 ├── src/
 │   ├── analysis/                # TE estimators & meta-analysis
 │   ├── visualization/           # Plotting utilities
