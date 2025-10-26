@@ -17,7 +17,6 @@ muscle-vascular-analysis-pipeline/
 ├── src/
 │   ├── analysis/                # TE estimators & meta-analysis
 │   ├── visualization/           # Plotting utilities
-│   ├── core/                    # Orchestration wrappers
 │   ├── utils/                   # Synthetic data generation
 │   └── runDemoPipeline.m        # End-to-end runnable demo
 ├── results/
@@ -69,8 +68,7 @@ Original experiment data are not included. This repo ships with a **synthetic ge
 - `src/analysis/transferEntropyKernel.m` — Kernel-based TE calculation.
 - `src/analysis/metaAnalysisPipeline.m` — Batch-level meta-analysis.
 - `src/analysis/metaAnalysisSingle.m` — Single-dataset meta-analysis.
-- `src/visualization/plotVascularCorrelation.m` — Plot coupling and outcomes.
-- `src/core/runTransferEntropy.m` — Wrapper/orchestration for TE runs.
+- `src/visualization/plotVascularCorrelation.m` — Complete Plot coupling and outcomes.
 
 Each file includes a header noting its **original filename** for provenance.
 
