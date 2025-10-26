@@ -99,5 +99,5 @@ This repository is released under the MIT License (see `LICENSE`).
 ## 👤 Contact
 
 - **Ashvin Handoo** — Bioengineering | Python | Data Analysis
-- GitHub: _link to your profile_
+- GitHub: https://github.com/AshvinHandoo
 - Email: ash213@pitt.edu
