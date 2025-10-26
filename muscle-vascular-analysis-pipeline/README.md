@@ -90,6 +90,6 @@ MIT License (see `LICENSE`).
 
 ## 👤 Contact
 
-- **Ashvin Handoo** — Bioengineering | MATLAB | Quantitative Physiology
-- GitHub: _link to your profile_
+- **Ashvin Handoo** — Bioengineering | MATLAB
+- GitHub: https://github.com/AshvinHandoo
 - Email: ash213@pitt.edu
