@@ -42,7 +42,7 @@ Original experiment data are not included.
 - `src/analysis/TransferEntropyKernel.m` — Kernel-based TE calculation.
 - `src/analysis/MetaAnalysisMulti.m` — Multi-animal meta-analysis.
 - `src/analysis/MetaAnalysisSingle.m` — Single-animal meta-analysis.
-- `src/visualization/PlotVascularCorrelation.m` — Complete Plot coupling and outcomes.
+- `src/visualization/PlotVascularCorrelation.m` — Complete plot coupling and outcomes.
 
 Each file includes a header noting its **original filename** for provenance.
 
