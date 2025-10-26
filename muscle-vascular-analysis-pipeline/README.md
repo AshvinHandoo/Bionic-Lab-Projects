@@ -15,7 +15,6 @@ muscle-vascular-analysis-pipeline/
 ├── src/
 │   ├── analysis/                # TE estimators & meta-analysis
 │   ├── visualization/           # Plotting utilities
-│   ├── utils/                   # Synthetic data generation
 ├── REQUIREMENTS.md              # MATLAB version/toolboxes
 ├── .gitignore
 └── LICENSE
