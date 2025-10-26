@@ -1,16 +1,24 @@
-% transferEntropyKernel.m
-% Origin: "JIDTkernel.m"
-% Category: Analytical routines (Transfer Entropy, meta-analysis)
-% Author: Ashvin Handoo
-% Last Updated: 2025-10-26
+% TransferEntropyKernel.m
+% -------------------------------------------------------------------------
+% Purpose:
+%   Computes transfer entropy (TE) between calcium and vasomotion signals
+%   using a kernel estimator. Includes automatic parameter sweeps and lag
+%   testing for continuous signal relationships.
 %
-% Summary:
-%   Part of the astrocyte-vascular-analysis-pipeline. Renamed and documented
-%   for clarity and recruiter readability. Original logic preserved.
+% Inputs:
+%   - Preprocessed calcium and diameter time-series data
+%   - User-defined parameters for kernel width and lag
 %
-% Notes:
-%   - See README for a synthetic demo you can run without lab data.
-%   - This file may expect specific data structures if used with raw datasets.
+% Outputs:
+%   - CSV file summarizing TE results across lag sweeps and parameter sets
+%
+% File Relationships:
+%   - Outputs are used by MetaAnalysisSingle, MetaAnalysisMulti, and
+%     PlotVascularCorrelation for visualization and meta-analysis.
+%
+% Dependencies:
+%   - Requires JIDT (Java Information Dynamics Toolkit)
+%   - See REQUIREMENTS.md for setup instructions
 %
 % ---- Original script content below ----
 
