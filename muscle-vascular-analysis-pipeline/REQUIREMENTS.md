@@ -43,12 +43,6 @@ If no error appears, JIDT is installed correctly.
 
 ---
 
-### ⚙️ Optional Dependencies
-- `export_fig` (for high-quality MATLAB figure saving)
-- `brewermap` (for advanced colormaps, optional visualization)
-
----
-
 ### 🧪 Notes
 - The synthetic demo (`runDemoPipeline.m`) **does not require JIDT** and runs out-of-the-box.  
 - The original TE scripts (under `src/analysis/`) **require JIDT** to compute true transfer entropy values.
