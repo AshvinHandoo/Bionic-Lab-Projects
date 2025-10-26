@@ -9,8 +9,6 @@ A Python-based analysis pipeline demonstrating a **computational neuroscience** 
 - Correlation analysis and event-detection patterns
 - Modular, well-documented code meant for **data science** roles
 
-This repository uses a small **synthetic dataset** (generated on-the-fly) so reviewers can run the code without access to the original lab data.
-
 ---
 
 ## 🧩 Project Structure
@@ -23,40 +21,10 @@ astrocyte-alertness-analysis-pipeline/
 │   ├── analysis/           # Cross-corr, lag, distributions
 │   ├── events/             # Event detection, averaging, plotting
 │   ├── visualization/      # Plotting utilities, video players
-│   ├── utils/              # Synthetic data generator and shared helpers
-│   └── run_demo_pipeline.py
-├── results/
-│   ├── synthetic_data/     # Auto-generated demonstration CSVs
-│   └── generated_plots/    # Auto-generated figures
-├── docs/                   # Diagrams/notes if needed
 ├── requirements.txt
 ├── .gitignore
 └── LICENSE
 ```
-
----
-
-## 🚀 Quick Start (Demo Mode)
-
-```bash
-# 1) Create environment (example)
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-
-# 2) Install requirements
-pip install -r requirements.txt
-
-# 3) Run the synthetic demo
-python -m src.run_demo_pipeline
-
-# Outputs:
-# - results/output_summary.csv
-# - results/generated_plots/synthetic_signals_and_corr.png
-```
-The demo computes a **rolling correlation** between synthetic pupil and calcium signals to illustrate an **alertness proxy**.
-
-> Note: Original experimental data are unavailable; this repo is intentionally **portfolio-focused** for computational roles.
-
 ---
 
 ## 🔧 Notable Skills Demonstrated
@@ -84,9 +52,7 @@ Each file includes a header with the original filename for provenance.
 
 ## 🧪 Data Availability
 
-The original lab datasets are not included. For demonstration:
-- We generate a small synthetic dataset under `results/synthetic_data/astrocyte_signals.csv`.
-- Scripts designed for the original data should be considered **archival logic** and may require path tweaks to run end-to-end; they’re preserved for **technical depth**.
+The original lab datasets are not included.
 
 ---
 
