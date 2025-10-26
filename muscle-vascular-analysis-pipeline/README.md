@@ -44,8 +44,6 @@ Original experiment data are not included.
 - `src/analysis/MetaAnalysisSingle.m` — Single-animal meta-analysis.
 - `src/visualization/PlotVascularCorrelation.m` — Complete plot coupling and outcomes.
 
-Each file includes a header noting its **original filename** for provenance.
-
 ---
 
 ## 🧰 Requirements
