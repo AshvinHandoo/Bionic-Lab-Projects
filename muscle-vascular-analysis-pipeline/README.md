@@ -6,8 +6,6 @@
 
 A MATLAB-based pipeline demonstrating **quantitative analysis of vasomotion and smooth-muscle calcium dynamics**, with a focus on **transfer entropy (TE)** using **Kraskov** and **kernel** estimators. This project is designed as a **recruiter-friendly portfolio** for bioinformatics / biocomputation roles, emphasizing signal processing, statistical modeling, and reproducible workflows.
 
-This repository includes a **synthetic dataset generator** so reviewers can run the demo without access to lab data.
-
 ---
 
 ## 🧩 Project Structure
@@ -18,57 +16,33 @@ muscle-vascular-analysis-pipeline/
 │   ├── analysis/                # TE estimators & meta-analysis
 │   ├── visualization/           # Plotting utilities
 │   ├── utils/                   # Synthetic data generation
-│   └── runDemoPipeline.m        # End-to-end runnable demo
-├── results/
-│   ├── synthetic_data/          # Auto-generated demo data
-│   └── generated_plots/         # Figures created by the demo
-├── docs/                        # Notes/diagrams if needed
 ├── REQUIREMENTS.md              # MATLAB version/toolboxes
 ├── .gitignore
 └── LICENSE
 ```
-
----
-
-## 🚀 Quick Start (Demo Mode)
-
-In MATLAB:
-```matlab
-% From the repo root:
-addpath(genpath('src'));
-runDemoPipeline
-% Outputs:
-% - results/vascular_output_summary.csv
-% - results/generated_plots/synthetic_vascular_corr.png
-```
-
-> The demo computes a **rolling correlation** between synthetic vasomotion and calcium signals as an intuitive coupling proxy. TE scripts are preserved with their original logic and can be applied to the same synthetic data or to lab datasets if available to you.
-
 ---
 
 ## 🔧 Skills Demonstrated
-
-- **MATLAB for physiological signals**
-- **Transfer Entropy (Kraskov & kernel estimators)**
-- **Time-series analysis:** lag, cross-correlation, rolling metrics
-- **Reproducibility:** synthetic data generator with deterministic seeds
-- **Communication:** professional documentation and modular structure
+- **MATLAB for quantitative physiology:** designed scripts to analyze smooth muscle calcium and vasomotion activity.
+- **Transfer entropy analysis:** implemented Kraskov and kernel estimators using (JIDT) to quantify directional coupling between signals.
+- **Time-series modeling:** evaluated lag structure, correlation strength, and coupling stability across multiple vessels and conditions.
+- **Statistical visualization:** generated comparative plots of forward vs. reverse signal influence and varying lag to explore signal relationship
 
 ---
 
 ## 🧪 Data Availability
 
-Original experiment data are not included. This repo ships with a **synthetic generator** (`src/utils/generateSyntheticVascularData.m`) to enable full reproducibility for reviewers.
+Original experiment data are not included.
 
 ---
 
 ## 📦 Selected Modules
 
-- `src/analysis/transferEntropyKraskov.m` — Kraskov TE estimator (renamed from original JIDT script).
-- `src/analysis/transferEntropyKernel.m` — Kernel-based TE calculation.
-- `src/analysis/metaAnalysisPipeline.m` — Batch-level meta-analysis.
-- `src/analysis/metaAnalysisSingle.m` — Single-dataset meta-analysis.
-- `src/visualization/plotVascularCorrelation.m` — Complete Plot coupling and outcomes.
+- `src/analysis/TransferEntropyKraskov.m` — Kraskov TE estimator (renamed from original JIDT script).
+- `src/analysis/TransferEntropyKernel.m` — Kernel-based TE calculation.
+- `src/analysis/MetaAnalysisMulti.m` — Multi-animal meta-analysis.
+- `src/analysis/MetaAnalysisSingle.m` — Single-animal meta-analysis.
+- `src/visualization/PlotVascularCorrelation.m` — Complete Plot coupling and outcomes.
 
 Each file includes a header noting its **original filename** for provenance.
 
