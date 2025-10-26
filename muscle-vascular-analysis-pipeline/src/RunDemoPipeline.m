@@ -1,3 +1,25 @@
+% RunDemoPipeline.m
+% -------------------------------------------------------------------------
+% Purpose:
+%   Demonstrates the astrocyte-vascular-analysis-pipeline workflow using
+%   synthetic data. Runs the generator, computes rolling correlations, and
+%   produces a simple summary and plot.
+%
+% Inputs:
+%   - None (synthetic data generated automatically)
+%
+% Outputs:
+%   - CSV summary and PNG plot in the results directory
+%
+% File Relationships:
+%   - Calls GenerateSyntheticVascularData.m for demo data
+%   - Independent from experimental scripts
+%
+% Dependencies:
+%   - MATLAB base environment
+%
+% -------------------------------------------------------------------------
+
 function runDemoPipeline()
 % runDemoPipeline
 % End-to-end demo for astrocyte-vascular-analysis-pipeline using synthetic data.
