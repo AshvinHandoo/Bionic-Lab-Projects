@@ -1,16 +1,23 @@
-% plotVascularCorrelation.m
-% Origin: "JIDTgraphing.m"
-% Category: Visualization utilities
-% Author: Ashvin Handoo
-% Last Updated: 2025-10-26
+% PlotVascularCorrelation.m
+% -------------------------------------------------------------------------
+% Purpose:
+%   Generates comprehensive visualizations combining all animals, vessels,
+%   and days. Displays directional coupling (calcium → diameter and
+%   diameter → calcium) along with null distributions and averaged results.
 %
-% Summary:
-%   Part of the astrocyte-vascular-analysis-pipeline. Renamed and documented
-%   for clarity and recruiter readability. Original logic preserved.
+% Inputs:
+%   - CSV outputs from TransferEntropyKraskov or TransferEntropyKernel
+%     across all animals
 %
-% Notes:
-%   - See README for a synthetic demo you can run without lab data.
-%   - This file may expect specific data structures if used with raw datasets.
+% Outputs:
+%   - Figures summarizing group-level TE patterns and null comparisons
+%
+% File Relationships:
+%   - Extends MetaAnalysisSingle and MetaAnalysisMulti
+%   - Final visualization stage in the analysis pipeline
+%
+% Dependencies:
+%   - MATLAB plotting functions
 %
 % ---- Original script content below ----
 
