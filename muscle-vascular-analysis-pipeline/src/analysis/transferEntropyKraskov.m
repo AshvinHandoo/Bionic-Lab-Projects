@@ -15,9 +15,12 @@
 % ---- Original script content below ----
 
 %% Transfer Entropy (Kraskov, Asymmetry, Random Permutation Null, Multi-Animal)
-% Author: Ashvin Handoo
-% Description: Computes Ca↔Dia TE across animals, days, and vessels.
-% Outputs one CSV per animal with TE, null, significance, and best lag.
+% - Lag sweep: 0..3 samples
+% - K sweep (averaged): [3 4 5 8 10]
+% - Random permutation nulls
+% - Asymmetry (Ca->Dia, Dia->Ca)
+% - Best lag tracking (samples)
+% - One CSV per animal
 
 javaaddpath('/Users/ashvinhandoo/Documents/JIDT/infodynamics-dist-1.6.1/infodynamics.jar');
 
