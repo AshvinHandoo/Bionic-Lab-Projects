@@ -1,16 +1,23 @@
-% continuousTransferEntropy.m
-% Origin: "JIDTcont.m"
-% Category: Analytical routines (Transfer Entropy, meta-analysis)
-% Author: Ashvin Handoo
-% Last Updated: 2025-10-26
+% ContinuousTransferEntropy.m
+% -------------------------------------------------------------------------
+% Purpose:
+%   Computes a basic transfer entropy (TE) estimate between calcium and
+%   vasomotion signals using a kernel-based continuous model. This version
+%   processes a single animal without parameter sweeps or looping.
 %
-% Summary:
-%   Part of the astrocyte-vascular-analysis-pipeline. Renamed and documented
-%   for clarity and recruiter readability. Original logic preserved.
+% Inputs:
+%   - Calcium and diameter time-series data from one animal
 %
-% Notes:
-%   - See README for a synthetic demo you can run without lab data.
-%   - This file may expect specific data structures if used with raw datasets.
+% Outputs:
+%   - CSV file with basic TE results (simplified column structure)
+%
+% File Relationships:
+%   - Outputs can be visualized with MetaAnalysisSingle or
+%     PlotVascularCorrelation for individual result inspection.
+%
+% Dependencies:
+%   - Requires JIDT (Java Information Dynamics Toolkit)
+%   - See REQUIREMENTS.md for setup instructions
 %
 % ---- Original script content below ----
 
