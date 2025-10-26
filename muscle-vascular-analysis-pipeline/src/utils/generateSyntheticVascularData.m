@@ -1,3 +1,24 @@
+% GenerateSyntheticVascularData.m
+% -------------------------------------------------------------------------
+% Purpose:
+%   Generates synthetic calcium and vasomotion time-series data for demo
+%   and testing purposes. Creates realistic coupling patterns with noise
+%   and partial correlation.
+%
+% Inputs:
+%   - Optional random seed, sample length, sampling rate
+%
+% Outputs:
+%   - CSV and MAT files stored in results/synthetic_data/
+%
+% File Relationships:
+%   - Used exclusively by RunDemoPipeline for GitHub demonstration
+%
+% Dependencies:
+%   - None (built-in MATLAB functions only)
+%
+% -------------------------------------------------------------------------
+
 function outPath = generateSyntheticVascularData(seed, n, fs, outDir)
 % generateSyntheticVascularData
 % Create synthetic vasomotion and calcium signals for demo purposes.
