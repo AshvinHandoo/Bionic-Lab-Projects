@@ -41,10 +41,4 @@ disp(teCalc);
 ```
 If no error appears, JIDT is installed correctly.
 
----
-
-### 🧪 Notes
-- The synthetic demo (`runDemoPipeline.m`) **does not require JIDT** and runs out-of-the-box.  
-- The original TE scripts (under `src/analysis/`) **require JIDT** to compute true transfer entropy values.
-
 _Last updated: 2025-10-26_
