@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Standardizes pupil videos for analysis by trimming to 2 minutes, adjusting
-frame rate, and aligning start times.
+#   - Standardizes pupil videos for analysis by trimming to 2 minutes, adjusting frame rate, and aligning start times.
 #
 # Inputs:
 #   - Raw/preprocessed pupil video (.h264 or similar)
@@ -17,7 +16,7 @@ frame rate, and aligning start times.
 #   - Precedes EventGraphAnimation for consistent inputs.
 #
 # Dependencies:
-#   cv2 (OpenCV), os
+#   - moviepy, os
 # -------------------------------------------------------------------------
 
 import os
