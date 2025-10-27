@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Detects pupil dilation events exceeding a dynamic threshold based on
-standard deviation of derivatives. Generates per-condition plots.
+#   - Detects pupil dilation events exceeding a dynamic threshold based on standard deviation of derivatives. Generates per-condition plots.
 #
 # Inputs:
 #   - Pupil derivative data across trials and stim conditions
@@ -17,7 +16,7 @@ standard deviation of derivatives. Generates per-condition plots.
 #   - Upstream of EventThresholdDetection and EventThresholdDetectionNormalized.
 #
 # Dependencies:
-#   pandas, numpy, matplotlib
+#   - pandas, numpy, matplotlib, os
 # -------------------------------------------------------------------------
 
 import os
