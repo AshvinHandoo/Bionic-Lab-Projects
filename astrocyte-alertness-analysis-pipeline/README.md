@@ -4,8 +4,7 @@
 > **Author:** Ashvin Handoo  
 > **Last Updated:** 2025-10-26
 
-A Python-based analysis pipeline for **astrocyte calcium activity** and **pupil diameter dynamics**, exploring their relationship under varying alertness states.  
-This repository demonstrates skills in **signal processing**, **event analysis**, and **computational neuroscience** workflows.
+A Python-based analysis pipeline for **astrocyte calcium activity** and **pupil diameter dynamics**, exploring their relationship under varying alertness states. This repository demonstrates skills in **signal processing**, **event analysis**, and **computational neuroscience** workflows.
 
 ---
 
