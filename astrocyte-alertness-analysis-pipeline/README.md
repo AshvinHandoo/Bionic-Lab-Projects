@@ -5,7 +5,7 @@
 > **Last Updated:** 2025-10-26
 
 A Python-based analysis pipeline for **astrocyte calcium activity** and **pupil diameter dynamics**, exploring their relationship under varying alertness states.  
-This repository demonstrates skills in **signal processing**, **event analysis**, and **computational neuroscience** workflows, built as a **recruiter-facing portfolio** project.
+This repository demonstrates skills in **signal processing**, **event analysis**, and **computational neuroscience** workflows.
 
 ---
 
@@ -27,7 +27,7 @@ astrocyte-alertness-analysis-pipeline/
 ---
 
 ## 🔧 Skills Demonstrated
-- **Python Data Science Stack:** `pandas`, `numpy`, `matplotlib`, `scipy`
+- **Python Data Science Stack:** `pandas`, `numpy`, `matplotlib`
 - **Signal Analysis:** correlation, lag estimation, event detection
 - **Computational Neuroscience:** analysis of pupil–calcium coupling as an alertness metric
 - **Scientific Visualization:** time-series plotting and event-based animation
