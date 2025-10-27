@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Displays two synchronized videos side by side (e.g., calcium and pupil)
-allowing user to scrub and review temporal alignment interactively.
+#   - Displays two synchronized videos side by side (e.g., calcium and pupil) allowing user to scrub and review temporal alignment interactively.
 #
 # Inputs:
 #   - Two preprocessed video files
@@ -17,7 +16,7 @@ allowing user to scrub and review temporal alignment interactively.
 #   - Standalone visualization utility.
 #
 # Dependencies:
-#   cv2 (OpenCV)
+#   - cv2 (OpenCV), tkinter, PIL (Pillow)
 # -------------------------------------------------------------------------
 
 import tkinter as tk
