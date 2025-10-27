@@ -4,9 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Computes cross-correlation between calcium and pupil signals for pre-,
-stim-, post-stim, and entire recording periods. Records max correlation and
-lag per section for all trials and stim conditions.
+#   - Computes cross-correlation between calcium and pupil signals for pre-, stim-, post-stim, and entire recording periods. Records max correlation and lag per section for all trials and stim conditions.
 #
 # Inputs:
 #   - Calcium and pupil CSVs segmented by time section
@@ -18,7 +16,7 @@ lag per section for all trials and stim conditions.
 #   - Works alongside SlidingWindowCorrelationDistribution.
 #
 # Dependencies:
-#   pandas, numpy, scipy.signal, matplotlib
+#   - pandas, numpy, os, matplotlib
 # -------------------------------------------------------------------------
 
 import pandas as pd
