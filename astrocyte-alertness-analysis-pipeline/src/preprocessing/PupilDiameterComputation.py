@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Processes DeepLabCut CSV outputs to compute pupil diameter and eye gap,
-cleaning and formatting them for synchronization with calcium data.
+#   - Processes DeepLabCut CSV outputs to compute pupil diameter and eye gap, cleaning and formatting them for synchronization with calcium data.
 #
 # Inputs:
 #   - DeepLabCut output CSVs
@@ -17,7 +16,7 @@ cleaning and formatting them for synchronization with calcium data.
 #   - Follows DeepLabCutInterpolation; used in correlation analyses.
 #
 # Dependencies:
-#   pandas, numpy, os
+#   - pandas, numpy, os, re
 # -------------------------------------------------------------------------
 
 import os
