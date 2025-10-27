@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Converts structured text outputs into CSV format for use in downstream
-preprocessing and analysis steps.
+#   - Converts structured text outputs into CSV format for use in downstream preprocessing and analysis steps.
 #
 # Inputs:
 #   - Text (.txt) files with numeric/labeled data
@@ -17,7 +16,7 @@ preprocessing and analysis steps.
 #   - Complements PickleToTextConverter.
 #
 # Dependencies:
-#   pandas, numpy, os
+#   - csv, glob, os
 # -------------------------------------------------------------------------
 
 import csv
