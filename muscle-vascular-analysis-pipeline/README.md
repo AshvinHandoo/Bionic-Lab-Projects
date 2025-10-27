@@ -25,7 +25,7 @@ muscle-vascular-analysis-pipeline/
 - **MATLAB for quantitative physiology:** designed scripts to analyze smooth muscle calcium and vasomotion activity.
 - **Transfer entropy analysis:** implemented Kraskov and kernel estimators using (JIDT) to quantify directional coupling between signals.
 - **Time-series modeling:** evaluated lag structure, correlation strength, and coupling stability across multiple vessels and conditions.
-- **Statistical visualization:** generated comparative plots of forward vs. reverse signal influence and varying lag to explore signal relationship
+- **Statistical visualization:** generated comparative plots of forward vs. reverse signal influence and varying lag to explore signal relationship.
 
 ---
 
