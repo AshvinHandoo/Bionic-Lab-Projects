@@ -4,9 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Computes correlation between calcium and pupil diameter signals,
-normalizing pupil data to its maximum. Produces dynamically averaged time-
-aligned CSVs ensuring consistent data point counts (n=1198).
+#   - Computes correlation between calcium and pupil diameter signals, normalizing pupil data to its maximum. Produces dynamically averaged time-aligned CSVs ensuring consistent data point counts (n=1198).
 #
 # Inputs:
 #   - Calcium CSVs and pupil diameter CSVs
@@ -18,7 +16,7 @@ aligned CSVs ensuring consistent data point counts (n=1198).
 #   - Core analysis step before event detection and bin distribution.
 #
 # Dependencies:
-#   pandas, numpy, scipy.stats
+#   - pandas, re, os, logging
 # -------------------------------------------------------------------------
 
 import pandas as pd
