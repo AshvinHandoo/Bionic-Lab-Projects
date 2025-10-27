@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Helper utilities for computing and applying signal thresholds (e.g., std-
-dev based cutoffs) used across event detection.
+#   - Helper utilities for computing and applying signal thresholds (e.g., std-dev based cutoffs) used across event detection.
 #
 # Inputs:
 #   - Numeric arrays/series from preprocessing or analysis
@@ -17,7 +16,7 @@ dev based cutoffs) used across event detection.
 #   - Supports DilationEventDetection and EventThresholdDetection.
 #
 # Dependencies:
-#   numpy, pandas
+#   - numpy, cv2 (OpenCV)
 # -------------------------------------------------------------------------
 
 import cv2
