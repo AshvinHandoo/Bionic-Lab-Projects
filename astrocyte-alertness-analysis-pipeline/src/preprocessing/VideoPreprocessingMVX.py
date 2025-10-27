@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Preprocesses MVX videos containing multiple stimulation conditions;
-produces reliable clips for DeepLabCut.
+#   - Preprocesses MVX videos containing multiple stimulation conditions; produces reliable clips for DeepLabCut.
 #
 # Inputs:
 #   - Raw MVX video (.h264)
@@ -17,7 +16,7 @@ produces reliable clips for DeepLabCut.
 #   - Upstream of DeepLabCutInterpolation and PupilDiameterComputation.
 #
 # Dependencies:
-#   cv2 (OpenCV), numpy, os
+#   - cv2 (OpenCV), os
 # -------------------------------------------------------------------------
 
 import cv2
