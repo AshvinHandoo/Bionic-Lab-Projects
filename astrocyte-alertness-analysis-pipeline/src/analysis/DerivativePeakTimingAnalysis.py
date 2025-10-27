@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Finds max positive/negative pupil derivatives and reports the corresponding
-calcium values and timestamps.
+#   - Finds max positive/negative pupil derivatives and reports the corresponding calcium values and timestamps.
 #
 # Inputs:
 #   - Pupil derivative and calcium CSVs
@@ -17,7 +16,7 @@ calcium values and timestamps.
 #   - Often run before or alongside event detection modules.
 #
 # Dependencies:
-#   pandas, numpy, matplotlib
+#   - pandas, numpy, matplotlib, os
 # -------------------------------------------------------------------------
 
 import os
