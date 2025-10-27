@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Computes average time lag between calcium and pupil events across approved
-trials, providing mean and standard deviation summaries.
+#   - Computes average time lag between calcium and pupil events across approved trials, providing mean and standard deviation summaries.
 #
 # Inputs:
 #   - Folder of approved event CSVs
@@ -17,7 +16,7 @@ trials, providing mean and standard deviation summaries.
 #   - Summarizes results post-event alignment.
 #
 # Dependencies:
-#   pandas, numpy
+#   - pandas, numpy, os, re
 # -------------------------------------------------------------------------
 
 import pandas as pd
