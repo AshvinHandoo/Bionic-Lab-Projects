@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Animates pupil ratio, calcium, and pupil derivative traces over time and
-highlights threshold crossings.
+#   - Animates pupil ratio, calcium, and pupil derivative traces over time and highlights threshold crossings.
 #
 # Inputs:
 #   - Event detection CSV (e.g., bindist_2040.csv)
@@ -17,7 +16,7 @@ highlights threshold crossings.
 #   - Uses EventThresholdDetectionNormalized outputs.
 #
 # Dependencies:
-#   matplotlib.animation, pandas, numpy
+#   - matplotlib.animation, pandas, numpy, os, matplotlib.pyplot
 # -------------------------------------------------------------------------
 
 import os
