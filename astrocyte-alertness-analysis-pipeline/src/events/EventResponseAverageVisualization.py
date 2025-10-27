@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Plots mean pupil diameter and calcium activity during stimulation and
-baseline events with standard deviation envelopes.
+#   - Plots mean pupil diameter and calcium activity during stimulation and baseline events with standard deviation envelopes.
 #
 # Inputs:
 #   - Averaged event CSVs (from EventResponseAveraging)
@@ -17,7 +16,7 @@ baseline events with standard deviation envelopes.
 #   - Visual follow-up to EventResponseAveraging.
 #
 # Dependencies:
-#   pandas, numpy, matplotlib
+#   - pandas, matplotlib.pyplot
 # -------------------------------------------------------------------------
 
 import pandas as pd
