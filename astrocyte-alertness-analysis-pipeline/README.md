@@ -56,6 +56,6 @@ MIT License (see `LICENSE`).
 ---
 
 ## 👤 Contact
-- **Ashvin Handoo** — Bioengineering | Data Analysis  
+- **Ashvin Handoo** — Bioengineering | Python  
 - GitHub: https://github.com/AshvinHandoo  
 - Email: ash213@pitt.edu
