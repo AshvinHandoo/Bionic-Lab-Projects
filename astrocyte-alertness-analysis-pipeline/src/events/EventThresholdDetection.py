@@ -4,20 +4,19 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Labels pupil derivative time points that exceed primary/secondary
-thresholds (std-dev based) and writes event markers.
+#   - Labels pupil derivative time points that exceed primary/secondary thresholds (std-dev based) and writes event markers.
 #
 # Inputs:
 #   - Derivative and calcium CSVs (from dilation event detection)
 #
 # Outputs:
-#   - 'bindist_2020.csv' with binary event labels
+#   - 'bindist_2040.csv' with binary event labels
 #
 # File Relationships:
 #   - Input to EventGraphAnimation and EventTimeAlignmentPlotting.
 #
 # Dependencies:
-#   pandas, numpy
+#   - pandas, numpy, os
 # -------------------------------------------------------------------------
 
 import pandas as pd
