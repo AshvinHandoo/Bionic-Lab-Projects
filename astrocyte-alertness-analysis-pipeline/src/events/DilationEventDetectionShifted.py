@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Identifies pupil dilation events and computes calcium activity shifted
-forward/backward to study causal lag relationships.
+#   - Identifies pupil dilation events and computes calcium activity shifted forward/backward to study causal lag relationships.
 #
 # Inputs:
 #   - Pupil and calcium CSVs (derivative-based)
@@ -17,7 +16,7 @@ forward/backward to study causal lag relationships.
 #   - Companion to DilationEventDetection.
 #
 # Dependencies:
-#   pandas, numpy, matplotlib
+#   - pandas, numpy, matplotlib, os
 # -------------------------------------------------------------------------
 
 import os
