@@ -4,20 +4,19 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Same as EventThresholdDetection, but normalizes calcium signals before
-threshold labeling for improved comparability across recordings.
+#   - Same as EventThresholdDetection, but normalizes calcium signals before threshold labeling for improved comparability across recordings.
 #
 # Inputs:
 #   - Normalized calcium and derivative CSVs
 #
 # Outputs:
-#   - 'bindist_2040.csv' with binary threshold markers
+#   - 'bindist_2020.csv' with binary threshold markers
 #
 # File Relationships:
 #   - Input for EventGraphAnimation.
 #
 # Dependencies:
-#   pandas, numpy
+#   - pandas, numpy, os
 # -------------------------------------------------------------------------
 
 import pandas as pd
