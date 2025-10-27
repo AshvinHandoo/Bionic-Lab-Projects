@@ -4,7 +4,7 @@
 > **Author:** Ashvin Handoo  
 > **Last Updated:** 2025-10-26
 
-A Python-based analysis pipeline for **astrocyte calcium activity** and **pupil diameter dynamics**, exploring their relationship under varying alertness states. This repository demonstrates skills in **signal processing**, **event analysis**, and **computational neuroscience** workflows.
+A Python-based analysis pipeline for astrocyte calcium activity and pupil diameter dynamics, exploring their relationship under varying alertness states. This repository demonstrates skills in signal processing, event analysis, and computational neuroscience workflows.
 
 ---
 
@@ -54,7 +54,12 @@ MIT License (see `LICENSE`).
 
 ---
 
+## 🧪 Research Context
+This analysis pipeline was originally developed for a neuroscience project at the University of Pittsburgh’s BIONIC Lab, where DeepLabCut was used to quantify pupil dynamics from high-speed imaging data. The methods and results were presented through a abstract and poster presentation at the 2024 Biomedical Engineering Society (BMES) Annual Conference. The manuscript for the project is still in preparation.
+
+---
+
 ## 👤 Contact
-- **Ashvin Handoo** — Bioengineering | Python  
+- Ashvin Handoo — Bioengineering | Python  
 - GitHub: https://github.com/AshvinHandoo  
 - Email: ash213@pitt.edu
