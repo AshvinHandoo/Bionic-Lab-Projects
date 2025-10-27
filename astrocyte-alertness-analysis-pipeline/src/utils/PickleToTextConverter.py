@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Converts Python pickle files into plain text to inspect serialized calcium
-and pupil datasets manually before preprocessing.
+#   - Converts Python pickle files into plain text to inspect serialized calcium and pupil datasets manually before preprocessing.
 #
 # Inputs:
 #   - .pkl files containing serialized trial data
@@ -17,7 +16,7 @@ and pupil datasets manually before preprocessing.
 #   - Used before TextToCSVConverter.
 #
 # Dependencies:
-#   pickle, json, os
+#   - pickle, json, os, glob
 # -------------------------------------------------------------------------
 
 import pickle
