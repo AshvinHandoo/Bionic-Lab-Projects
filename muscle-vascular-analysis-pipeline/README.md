@@ -29,12 +29,6 @@ muscle-vascular-analysis-pipeline/
 
 ---
 
-## 🧪 Data Availability
-
-Original experiment data are not included.
-
----
-
 ## 📦 Selected Modules
 
 - `src/analysis/TransferEntropyKraskov.m` — Kraskov TE estimator (renamed from original JIDT script).
