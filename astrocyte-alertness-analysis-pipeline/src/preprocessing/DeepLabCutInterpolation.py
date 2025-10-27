@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Interpolates missing DeepLabCut keypoints using probability-weighted
-interpolation to produce smooth pupil and eye-gap trajectories.
+#   - Interpolates missing DeepLabCut keypoints using probability-weighted interpolation to produce smooth pupil and eye-gap trajectories.
 #
 # Inputs:
 #   - CSV exported from DeepLabCut (per video)
@@ -17,7 +16,7 @@ interpolation to produce smooth pupil and eye-gap trajectories.
 #   - Followed by PupilDiameterComputation for feature extraction.
 #
 # Dependencies:
-#   pandas, numpy, scipy.interpolate
+#   - pandas, numpy, matplotlib.pyplot
 # -------------------------------------------------------------------------
 
 import os
