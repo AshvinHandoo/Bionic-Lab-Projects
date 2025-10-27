@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Computes average pupil and calcium activity across baseline and stimulation
-events. Produces separate CSVs for each condition.
+#   - Computes average pupil and calcium activity across baseline and stimulation events. Produces separate CSVs for each condition.
 #
 # Inputs:
 #   - Event-aligned CSVs (from EventTimeAlignmentPlotting)
@@ -17,7 +16,7 @@ events. Produces separate CSVs for each condition.
 #   - Used before EventResponseAverageVisualization.
 #
 # Dependencies:
-#   pandas, numpy
+#   - pandas, numpy, glob, os
 # -------------------------------------------------------------------------
 
 import pandas as pd
