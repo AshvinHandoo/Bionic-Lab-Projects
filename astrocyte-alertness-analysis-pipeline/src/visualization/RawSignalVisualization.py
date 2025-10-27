@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Plots raw calcium and pupil diameter signals with mean overlays to assess
-data quality and baseline relationships.
+#   - Plots raw calcium and pupil diameter signals with mean overlays to assess data quality and baseline relationships.
 #
 # Inputs:
 #   - Calcium and pupil CSVs
@@ -17,7 +16,7 @@ data quality and baseline relationships.
 #   - Typically follows CalciumPupilCouplingAnalysis.
 #
 # Dependencies:
-#   pandas, numpy, matplotlib
+#   - pandas, numpy, matplotlib, os
 # -------------------------------------------------------------------------
 
 import os
