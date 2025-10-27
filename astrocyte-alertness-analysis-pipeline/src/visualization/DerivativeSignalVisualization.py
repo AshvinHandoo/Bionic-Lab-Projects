@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Visualizes calcium and pupil derivative data together, enabling inspection
-of signal timing and polarity around dilation events.
+#   - Visualizes calcium and pupil derivative data together, enabling inspection of signal timing and polarity around dilation events.
 #
 # Inputs:
 #   - Calcium and pupil derivative CSVs
@@ -17,7 +16,7 @@ of signal timing and polarity around dilation events.
 #   - Complements DerivativePeakTimingAnalysis and event detection modules.
 #
 # Dependencies:
-#   pandas, numpy, matplotlib
+#   - pandas, numpy, matplotlib, os
 # -------------------------------------------------------------------------
 
 import os
