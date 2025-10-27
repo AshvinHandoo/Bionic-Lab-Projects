@@ -4,12 +4,10 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Slices calcium imaging data from pickle files into structured trials
-organized by stimulation condition, preparing datasets for downstream
-analysis.
+#   - Slices calcium imaging data from pickle files into structured trials organized by stimulation condition, preparing datasets for downstream analysis.
 #
 # Inputs:
-#   - Pickle (.pkl) files containing calcium imaging data
+#   - CSV files containing calcium imaging data
 #
 # Outputs:
 #   - CSVs or arrays grouped by trial and stimulation condition
@@ -18,7 +16,7 @@ analysis.
 #   - Forms the foundation for all calcium-based analyses.
 #
 # Dependencies:
-#   pickle, pandas, numpy, os
+#   - pandas, os
 # -------------------------------------------------------------------------
 
 import pandas as pd
