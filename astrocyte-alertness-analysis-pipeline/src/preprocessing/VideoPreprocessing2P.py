@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Preprocesses 2-photon videos to remove unreliable segments and prepare
-uniform clips for DeepLabCut tracking.
+#   - Preprocesses 2-photon videos to remove unreliable segments and prepare uniform clips for DeepLabCut tracking.
 #
 # Inputs:
 #   - Raw 2p video (.h264 or similar)
@@ -17,7 +16,7 @@ uniform clips for DeepLabCut tracking.
 #   - Precedes DeepLabCutInterpolation and PupilDiameterComputation.
 #
 # Dependencies:
-#   cv2 (OpenCV), numpy, os
+#   - cv2 (OpenCV), os
 # -------------------------------------------------------------------------
 
 import cv2
