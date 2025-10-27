@@ -4,7 +4,7 @@
 > **Author:** Ashvin Handoo  
 > **Last Updated:** 2025-10-26
 
-A MATLAB-based pipeline demonstrating **quantitative analysis of vasomotion and smooth-muscle calcium dynamics**, with a focus on **transfer entropy (TE)** using **Kraskov** and **kernel** estimators. This repository demonstrates skills in signal processing and statistical modeling.
+A MATLAB-based pipeline demonstrating quantitative analysis of vasomotion and smooth-muscle calcium dynamics, with a focus on transfer entropy (TE) using Kraskov and kernel estimators. This repository demonstrates skills in signal processing and statistical modeling.
 
 ---
 
@@ -53,6 +53,6 @@ MIT License (see `LICENSE`).
 
 ## 👤 Contact
 
-- **Ashvin Handoo** — Bioengineering | MATLAB
+- Ashvin Handoo — Bioengineering | MATLAB
 - GitHub: https://github.com/AshvinHandoo
 - Email: ash213@pitt.edu
