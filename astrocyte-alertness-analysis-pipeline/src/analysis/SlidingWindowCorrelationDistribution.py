@@ -4,9 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Computes and visualizes rolling correlations between calcium and pupil
-signals using a sliding window of 100 samples, stepping every 5 points.
-Highlights lag polarity with color-coded bins.
+#   - Computes and visualizes rolling correlations between calcium and pupil signals using a sliding window of 100 samples, stepping every 5 points. Highlights lag polarity with color-coded bins.
 #
 # Inputs:
 #   - Calcium and pupil time-series data
@@ -18,7 +16,7 @@ Highlights lag polarity with color-coded bins.
 #   - Complements CalciumPupilCrossCorrelation analysis.
 #
 # Dependencies:
-#   pandas, numpy, matplotlib
+#   - pandas, numpy, matplotlib, os
 # -------------------------------------------------------------------------
 
 import pandas as pd
