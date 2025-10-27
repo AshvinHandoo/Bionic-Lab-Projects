@@ -16,7 +16,7 @@
 #   - Standalone visualization utility.
 #
 # Dependencies:
-#   - cv2 (OpenCV), tkinter, PIL (Pillow)
+#   - cv2 (OpenCV), PIL (Pillow), tkinter
 # -------------------------------------------------------------------------
 
 import tkinter as tk
