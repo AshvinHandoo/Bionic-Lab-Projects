@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Generates a 0–100 bin distribution (bindist_2000) representing calcium and
-pupil activity frequencies across normalized intensity ranges.
+#   - Generates a 0–100 bin distribution (bindist_2000) representing calcium and pupil activity frequencies across normalized intensity ranges.
 #
 # Inputs:
 #   - Calcium and pupil correlation CSVs
@@ -17,7 +16,7 @@ pupil activity frequencies across normalized intensity ranges.
 #   - Supports event analysis modules like DilationEventDetection.
 #
 # Dependencies:
-#   pandas, numpy, matplotlib
+#   - pandas, os
 # -------------------------------------------------------------------------
 
 import os
