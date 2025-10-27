@@ -4,8 +4,7 @@
 # Last Updated: 2025-10-27
 #
 # Purpose:
-#   Plots individual dilation events aligned in time, distinguishing baseline
-and stimulation conditions, and outputs event-aligned CSVs.
+#   - Plots individual dilation events aligned in time, distinguishing baseline and stimulation conditions, and outputs event-aligned CSVs.
 #
 # Inputs:
 #   - Event CSVs ('bindist_2020' or 'bindist_2040')
@@ -17,7 +16,7 @@ and stimulation conditions, and outputs event-aligned CSVs.
 #   - Precedes EventResponseAveraging.
 #
 # Dependencies:
-#   pandas, numpy, matplotlib
+#   - pandas, numpy, matplotlib.pyplot, os
 # -------------------------------------------------------------------------
 
 import os
